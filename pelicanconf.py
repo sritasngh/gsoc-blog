@@ -21,7 +21,7 @@ PATH = 'content'
 TIMEZONE = 'Asia/Kolkata'
 DEFAULT_LANG = 'en'
 
-MENUITEMS = [('HOMEPAGE', 'index.html'), ('CATEGORY', 'categories.html'), ('TAG', 'tags.html')]
+MENUITEMS = [('HOMEPAGE', '/index.html'), ('CATEGORY', '/categories.html'), ('TAG', '/tags.html')]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
