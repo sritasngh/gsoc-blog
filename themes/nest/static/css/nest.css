@@ -20,7 +20,9 @@
     width: 850px;
   }
 }
-
+html{
+    font-family:monospace;
+}
 /* Default styling */
 body {
     font-family: "Open Sans", sans-serif;
