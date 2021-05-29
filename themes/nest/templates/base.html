@@ -82,52 +82,6 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-    {% if GOOGLE_ANALYTICS %}
-    <!-- Google Analytics -->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', '{{ GOOGLE_ANALYTICS }}', 'auto');
-        ga('send', 'pageview');
-    </script>
-    <!-- /Google Analytics -->
-    {% endif %}
-
-    {% if PIWIK_URL and PIWIK_SITE_ID %}
-    <!-- Piwik Analytics -->
-    <script type="text/javascript">
-        var _paq = _paq || [];
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function () {
-            {% if PIWIK_SSL_URL %}
-            var u = "{{ PIWIK_SSL_URL }}/";
-            {% else %}
-            var u = "{{ PIWIK_URL }}/";
-            {% endif %}
-            _paq.push(['setTrackerUrl', u + 'piwik.php']);
-            _paq.push(['setSiteId', {{ PIWIK_SITE_ID }}]);
-        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-        g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
-          }) ();
-    </script>
-    {% if PIWIK_SSL_URL %}
-    <noscript>
-        <p><img src="{{ PIWIK_SSL_URL }}//piwik.php?idsite={{ PIWIK_SITE_ID }}" style="border:0;" alt="" /></p>
-    </noscript>
-    {% else %}
-    <noscript>
-        <p><img src="{{ PIWIK_URL }}/piwik.php?idsite={{ PIWIK_SITE_ID }}" style="border:0;" alt="" /></p>
-    </noscript>
-    {% endif %}
-    <!-- /Piwik Analytics -->
-    {% endif %}
-
     {% endblock head %}
 </head>
 
@@ -240,7 +194,7 @@
             </div> 
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
                 <p class="pull-right text-right">
-                    <small><em>Made with <i class="fa fa-heart" style="color: red;"></i> by <a href="http://github.com/itssingh" target="_blank">Sarita</a></em></small>
+                    <small><em>Created with <i class="fa fa-heart" style="color: red;"></i> by <a href="http://github.com/itssingh" target="_blank">Sarita</a></em></small>
                     {% if NEST_FOOTER_HTML %}<small><em>{{ NEST_FOOTER_HTML }}</em></small>{% endif %}
                 </p>
             </div>

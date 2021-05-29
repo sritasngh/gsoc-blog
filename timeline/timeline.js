@@ -1,15 +1,16 @@
 $(() => {
   let stickyTop = 0,
-  scrollTarget = false;
+    scrollTarget = false;
 
   let timeline = $('.timeline__nav'),
-  items = $('li', timeline),
-  milestones = $('.timeline__section .milestone'),
-  offsetTop = parseInt(timeline.css('top'));
+    items = $('li', timeline),
+    milestones = $('.timeline__section .milestone'),
+    offsetTop = parseInt(timeline.css('top'));
 
   const TIMELINE_VALUES = {
     start: 190,
-    step: 30 };
+    step: 30
+  };
 
 
   $(window).resize(function () {
@@ -30,8 +31,8 @@ $(() => {
 
   items.find('span').click(function () {
     let li = $(this).parent(),
-    index = li.index(),
-    milestone = milestones.eq(index);
+      index = li.index(),
+      milestone = milestones.eq(index);
 
     if (!li.hasClass('active') && milestone.length) {
       scrollTarget = index;
@@ -42,14 +43,15 @@ $(() => {
         duration: 400,
         complete: function complete() {
           scrollTarget = false;
-        } });
+        }
+      });
 
     }
   });
 
   $(window).scroll(function () {
     let viewLine = $(window).scrollTop() + $(window).height() / 3,
-    active = -1;
+      active = -1;
 
     if (scrollTarget === false) {
       milestones.each(function () {
