@@ -13,13 +13,13 @@ $(() => {
   };
 
 
-  $(window).resize(function () {
-    timeline.removeClass('fixed');
+  // $(window).resize(function () {
+  //   timeline.removeClass('fixed');
 
-    stickyTop = timeline.offset().top - offsetTop;
+  //   stickyTop = timeline.offset().top - offsetTop;
 
-    $(window).trigger('scroll');
-  }).trigger('resize');
+  //   $(window).trigger('scroll');
+  // }).trigger('resize');
 
   $(window).scroll(function () {
     if ($(window).scrollTop() > stickyTop) {

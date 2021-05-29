@@ -11,9 +11,9 @@ SITETITLE = 'GSoC 2021'
 THEME = 'themes/nest'
 
 NEST_INDEX_HEAD_TITLE = u'GSoC Blog'  # bar title
-NEST_INDEX_HEADER_TITLE = u'Integrating ScanCode Toolkit to FOSSology'  # header text
-NEST_INDEX_HEADER_SUBTITLE = u'Post by Sarita Singh'  # sub header
-NEST_INDEX_CONTENT_TITLE = u'Posts'  # Article header
+NEST_INDEX_HEADER_TITLE = u'Integrating ScanCode Toolkit'  # header text
+NEST_INDEX_HEADER_SUBTITLE = u'Blogs by Sarita Singh'  # sub header
+NEST_INDEX_CONTENT_TITLE = u'Blogs'  # Article header
 
 PATH = 'content'
 
@@ -21,7 +21,7 @@ PATH = 'content'
 TIMEZONE = 'Asia/Kolkata'
 DEFAULT_LANG = 'en'
 
-MENUITEMS = [('HOMEPAGE', '/index.html'), ('CATEGORY', '/categories.html'), ('TIMELINE', '/timeline.html')]
+MENUITEMS = [('HOMEPAGE', '/index.html'), ('CATEGORIES', '/categories.html'), ('TIMELINE', '/timeline.html')]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
