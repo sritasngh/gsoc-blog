@@ -21,7 +21,7 @@ PATH = 'content'
 TIMEZONE = 'Asia/Kolkata'
 DEFAULT_LANG = 'en'
 
-MENUITEMS = [('HOMEPAGE', '/index.html'), ('CATEGORY', '/categories.html'), ('TAG', '/tags.html')]
+MENUITEMS = [('HOMEPAGE', '/index.html'), ('CATEGORY', '/categories.html'), ('TIMELINE', '/timeline.html')]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -34,7 +34,7 @@ NEST_SOCIAL_COLUMN_TITLE = u'Social'
 NEST_LINKS_COLUMN_TITLE = u'Links'
 
 NEST_SITEMAP_COLUMN_TITLE = u'Sitemap'
-NEST_SITEMAP_MENU = [('Archives', '/archives.html'), ('Authors','/authors.html')]
+NEST_SITEMAP_MENU = [('Archives', '/archives.html'), ('Tags','/tags.html')]
 
 # Blogroll
 SOCIAL = (('GitHub', 'https://github.com/itssingh/'),

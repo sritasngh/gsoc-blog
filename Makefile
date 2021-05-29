@@ -79,6 +79,7 @@ theme:
 	"$(PELICANTHEME)" --install "$(THEMEDIR)" --verbose
 
 github: html
+	cp -a timeline/* "$(OUTPUTDIR)/."
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) "$(OUTPUTDIR)"
 	git push -f origin $(GITHUB_PAGES_BRANCH)
 
