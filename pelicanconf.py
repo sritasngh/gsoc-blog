@@ -12,11 +12,12 @@ THEME = 'themes/nest'
 
 NEST_INDEX_HEAD_TITLE = u'GSoC Blog'  # bar title
 NEST_INDEX_HEADER_TITLE = u'Integrating ScanCode Toolkit'  # header text
-NEST_INDEX_HEADER_SUBTITLE = u'Blogs by Sarita Singh'  # sub header
+NEST_INDEX_HEADER_SUBTITLE = u'Blogs by <a href="https://github.com/itssingh">Sarita Singh</a>'  # sub header
 NEST_INDEX_CONTENT_TITLE = u'Blogs'  # Article header
 
 PATH = 'content'
 
+BOTTOM_IMAGE='images/gsoc-fossology.gif'
 
 TIMEZONE = 'Asia/Kolkata'
 DEFAULT_LANG = 'en'
