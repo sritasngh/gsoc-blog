@@ -48,11 +48,11 @@ Summary: This is the first meeting during community bonding period. Wrapper(Nink
 </ul></ul>
 <h2> Conclusion and Further Plans </h2> 
 <ul>
-<ul> Ninka Wrapper finalised
-<ul> Spdx key dispute solved
+<li> Ninka Wrapper finalised
+<li> Spdx key dispute solved
 <li> Create scancode Jinja template
 <li> Add new scan output to wrapper
 <li> Fork and create a branch for development and mention the same in blog/wiki.
-<li>Add a timeline section in blog/wiki as provided in the project proposal.
+<li> Add a timeline section in blog/wiki as provided in the project proposal.
 <li> Prepare a prototype/plan for the next week.
 </ul>
