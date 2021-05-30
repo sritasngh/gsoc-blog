@@ -1,10 +1,9 @@
 Title: Community Bonding Period Meeting-1
-Date: 2021-05-28 18:00-19:00 (IST)
+Date: 2021-05-28 17:00-18:00 (IST)
 Category: Community-Bonding
-Summary: 
-* Ninka Wrapper finalised
-* Spdx key dispute solved
-* Proposal related discussion 
+Tags: community-bonding, gsoc-21, fossology, scancode, license-scanner, ojo
+Author: Sarita Singh
+Summary: This is the first meeting during community bonding period. Wrapper(Ninka), spdx-key dispute had been discussed.
 
 <h2> Organiser </h2>
 <ul> <li> <a href="https://github.com/GMishx"> Gaurav Mishra </a> </li> </ul>
@@ -49,6 +48,8 @@ Summary:
 </ul></ul>
 <h2> Conclusion and Further Plans </h2> 
 <ul>
+<ul> Ninka Wrapper finalised
+<ul> Spdx key dispute solved
 <li> Create scancode Jinja template
 <li> Add new scan output to wrapper
 <li> Fork and create a branch for development and mention the same in blog/wiki.
