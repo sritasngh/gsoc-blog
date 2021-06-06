@@ -37,7 +37,7 @@ Summary: This is the first meeting during community bonding period. Wrapper(Nink
 <ul>
 <li> A NOMOS and ScanCode scan output <a href=" https://docs.google.com/spreadsheets/d/1lgAVHofEXyVLa7ocrl8rGjuNulY7VgF-WGOQVqYkmoE/edit#gid=680720653"> comparison list </a>.
 <ul> 
-<li> same licenses with slight variation in spdx key ex. LGPL-2.1-or-later (scancode) and LGPL-2.1+ (NOMOS) will be taken care as <a href="https://github.com/itssingh/fossology/blob/master/src/ojo/agent/ojoregex.hpp"> ojo agent </a> does.
+<li> same licenses with slight variation in spdx key ex. LGPL-2.1-or-later (scancode) and LGPL-2.1+ (NOMOS) will be taken care as <a href="https://github.com/fossology/fossology/blob/master/src/ojo/agent/OjosDatabaseHandler.cc"> ojo agent </a> does.
 <li> Write a regex to make license keys case insensitive ex. inner-net-2.0 (scancode) and InnerNet-2.00 (NOMOS).
 <li> Add new license to the license database table. </ul></ul>
 <h3> <strong> About the Project Proposal </strong> 
