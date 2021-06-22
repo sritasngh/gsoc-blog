@@ -3,7 +3,7 @@ Date: 2021-06-22 15:00-16:00 (IST)
 Category: Coding Period
 Tags: coding-period, week-3, gsoc-21, fossology, scancode, license-scanner
 Author: Sarita Singh
-Summary: This is the third meeting during coding period. Working on scancode license relevent text highlight.
+Summary: This is the third meeting during coding period. Working on scancode license relevant text highlight.
 
 <h2> Attendees </h2>
 <ul> 
@@ -17,7 +17,7 @@ Summary: This is the third meeting during coding period. Working on scancode lic
 <h2> Updates </h2>
 <ul>
 <li> Populated scancode database successfully. 
-<li> license relevent text highlight is working.
+<li> license relevant text highlight is working.
 <li> Scancode is working fine for license scanning.
 </ul>
 <h2> Discussions </h2>
@@ -26,10 +26,10 @@ Summary: This is the third meeting during coding period. Working on scancode lic
 <li> Start implementing copyright, email and urls scanning for scancode toolkit.
 <li> Optimisation related to showing percentage match for a license is required. Scancode have a plugin --license-score INTEGER for this purpose.
 <ul>
-<li> show only those licenses above a certain threshhold value.
+<li> show only those licenses above a certain threshold value.
 </ul>
 <li> Change detector type to 4.
-<li> Gaurav Solved queries related to various fiels present in fossology database.
+<li> Gaurav Solved queries related to various fields present in fossology database.
 </ul>
 <h2> Conclusion and Upcoming Plans </h2> 
 <ul>
