@@ -51,7 +51,6 @@ Summary: This is the third meeting during coding period. Working on scancode lic
 <ul>
 <li> There can be two tabs to switch between ScanCode Findings and FOSSology Copyright Findings.
 <li> Second idea is to ask user about a default agent out of FOSSology copyright and ScanCode for an upload and display copyright/email/url/author result by the default agent.
-<li> Michael didn't find the second idea much convincing.
 <li> Gaurav would like to discuss further in the next meeting.
 </ul>
 </ul>
