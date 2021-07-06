@@ -32,7 +32,7 @@ Summary: This is the third meeting during coding period. Working on scancode lic
 <li> No need to repeat users finding for ScanCode agent as user is not interested in providing decision for a particular agent but instead they do for a file. 
 </ul>
 <li> Michael proposed following idea instead
-<img src="images/copyright_browser.png" alt="Italian Trulli"> <center> for Copyright Browser </center> <img src="images/author_browser.png" alt="Italian Trulli"> <center> for Email/URL/Author Browser</center>
+<img src="images/copyright_browser.png" alt="Italian Trulli"> <center> for Copyright Browser </center> <img src="images/author_browser.png" alt="Italian Trulli"> <center> for Email/URL/Author Browser</center> <br>
 <ul>
 <li> It reuses Copyright and Author browser space.
 <li> There is no redundant user decision for copyright agent.
