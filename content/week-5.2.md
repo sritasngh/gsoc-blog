@@ -24,8 +24,8 @@ Summary: This is the fifth week meeting during coding period.
 <li> Copyright UI could be modified to integrate Scancode_Copyright and Scancode_Author UI.
 <li> CopyrightDao could be modified to include scancode copyright and author data too, no need to create a separate file for scancodeDao.
 <li> Users Findings are independent of any agent so no agentID has to be update in the copyright UI code for scancode but we have to take care for the type.
-<li> Gaurav suggested to use different type for copyright statement from what is used by copyright agent. Scancode will be using <a style="color:#8ee1ef">scancode_statement </a> for copyright type and <a style="color:#8ee1ef">statement </a>is used by copyright agent.
-<li> Two new tables named <a style="color:#8ee1ef">scancode_copyright_event </a>, and <a style="color:#8ee1ef">scancode_author_event </a> are required to store Deactivated ScanCode findings statements and Deactivated Author statements respectively.
+<li> Gaurav suggested to use different type for copyright statement from what is used by copyright agent. Scancode will be using <code style="color:rgb(14, 149, 233);font-size: 1em;">scancode_statement </code> for copyright type and <code style="color:rgb(14, 149, 233);font-size: 1em;">statement </code>is used by copyright agent.
+<li> Two new tables named <code style="color:rgb(14, 149, 233);font-size: 1em;">scancode_copyright_event </code>, and <code style="color:rgb(14, 149, 233);font-size: 1em;">scancode_author_event </code> are required to store Deactivated ScanCode findings statements and Deactivated Author statements respectively.
 <li> At several places in copyright code to generate report copyright agent is hard coded, figure out some way to add scancode data also.
 <h3> Discussion regarding Documentation</h3>
 <li> Gaurav gave <a href= https://github.com/fossology/fossology/pull/2040/files#diff-8e7c89ac20d0fcd6aa91a097accabecfdebf47343da0d71fbb4edc8527309c00> this </a> as a reference to add copyright in the project code files.
