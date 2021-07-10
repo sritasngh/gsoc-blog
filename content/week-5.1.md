@@ -53,7 +53,7 @@ Summary: This is the third meeting during coding period. Working on scancode lic
 <li> Second idea is to ask user about a default agent out of FOSSology copyright and ScanCode for an upload and display copyright/email/url/author result by the default agent.
 <li> Gaurav would like to discuss further in the next meeting.
 </ul>
-</ul>
+</ul></ul>
 <h2> Upcoming Plans </h2> 
 <ul> 
 <li> Implement Micheal's proposed idea for copyright browser and Email/URL/Author Browser.
