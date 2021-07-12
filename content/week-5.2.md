@@ -1,5 +1,5 @@
 Title: Coding Period Week-5 meeting-2
-Date: 2021-07-10 17:30-18:00 (IST)
+Date: 2021-07-9 17:30-18:00 (IST)
 Category: Coding Period
 Tags: coding-period, week-5, gsoc-21, fossology, scancode, copyright agent
 Author: Sarita Singh
@@ -26,7 +26,7 @@ Summary: This is the fifth week meeting during coding period.
 <li> Users Findings are independent of any agent so no agentID has to be update in the copyright UI code for scancode but we have to take care for the type.
 <li> Gaurav suggested to use different type for copyright statement from what is used by copyright agent. Scancode will be using <code style="color:rgb(14, 149, 233);font-size: 1em;">scancode_statement </code> for copyright type and <code style="color:rgb(14, 149, 233);font-size: 1em;">statement </code>is used by copyright agent.
 <li> Two new tables named <code style="color:rgb(14, 149, 233);font-size: 1em;">scancode_copyright_event </code>, and <code style="color:rgb(14, 149, 233);font-size: 1em;">scancode_author_event </code> are required to store Deactivated ScanCode findings statements and Deactivated Author statements respectively.
-<li> At several places in copyright code to generate report copyright agent is hard coded, figure out some way to add scancode data also.
+<li>To generate report copyright agent is hard coded at several places, figure out some way to add scancode data also.
 <h3> Discussion regarding Documentation</h3>
 <li> Gaurav gave <a href= https://github.com/fossology/fossology/pull/2040/files#diff-8e7c89ac20d0fcd6aa91a097accabecfdebf47343da0d71fbb4edc8527309c00> this </a> as a reference to add copyright in the project code files.
 <li> Michael suggested to look into <a href=https://github.com/fossology/fossology/wiki/Coding-Style#default-license-and-file-headers>coding guidelines</a> for default license for the project code files.
