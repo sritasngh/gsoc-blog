@@ -1,7 +1,7 @@
 Title: First Evaluation
 Date: 2021-07-14
 Category: First evaluation
-Tags: cgsoc-21, fossology, scancode
+Tags: gsoc-21, fossology, scancode
 Author: Sarita Singh
 ## First Evaluation Report
 
