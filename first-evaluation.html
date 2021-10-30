@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="First Evaluation Report Updates List of task completed Created a jinja template for ScanCode required output Integrated ScanCode for license scanning Display name of license with percentage...">
+    <meta name="keywords" content="fossology, gsoc-21, scancode">
+    <link rel="icon" href="https://itssingh.github.io/gsoc-blog/favicon.ico">
+
+    <title>First Evaluation - A Pelican Blog</title>
+
+    <!-- Stylesheets -->
+    <link href="https://itssingh.github.io/gsoc-blog/theme/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://itssingh.github.io/gsoc-blog/theme/css/fonts.css" rel="stylesheet">
+    <link href="https://itssingh.github.io/gsoc-blog/theme/css/nest.css" rel="stylesheet">
+    <link href="https://itssingh.github.io/gsoc-blog/theme/css/pygment.css" rel="stylesheet">
+    <link href="https://itssingh.github.io/gsoc-blog/theme/css/background.css" rel="stylesheet">
+    <link href="https://itssingh.github.io/gsoc-blog/theme/css/all.css" rel="stylesheet">
+
+    <!-- /Stylesheets -->
+
+    <!-- RSS Feeds -->
+    <!-- /RSS Feeds -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header-container" style="background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);">
+
+    <!-- Static navbar -->
+    <div class="container">
+        <div class="night">
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+        </div>
+        <div class="header-nav">
+            <div class="header">
+                <a class="pull-left" style="color:rgb(255, 255, 255);"
+                    href="https://summerofcode.withgoogle.com/projects/#6550787498442752"> GOOGLE SUMMER OF CODE 2021
+                </a>
+            </div>
+            <div class="nav pull-right">
+                <a href="https://itssingh.github.io/gsoc-blog/index.html">HOMEPAGE</a>
+                <a href="https://itssingh.github.io/gsoc-blog/categories.html">CATEGORIES</a>
+                <a href="https://itssingh.github.io/gsoc-blog/timeline.html">TIMELINE</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- /Static navbar -->
+
+    <!-- Header -->
+    <!-- Header -->
+    <div class="container header-wrapper">
+        <div class="row">
+              <div class="col-lg-12">
+                  <div class="header-content">
+                      <h1 class="header-title">First Evaluation</h1>
+                      <p class="header-date">By <a href="https://itssingh.github.io/gsoc-blog/author/sarita-singh.html">Sarita Singh</a>, Wed 14 July 2021, in category <a href="https://itssingh.github.io/gsoc-blog/category/first-evaluation.html">First evaluation</a></p>
+                      <div class="header-underline"></div>
+                      <div class="clearfix"></div>
+                      <p class="pull-right header-tags">
+                          <span class="glyphicon glyphicon-tags mr5" aria-hidden="true"></span>
+<a href="https://itssingh.github.io/gsoc-blog/tag/fossology.html">fossology</a>, <a href="https://itssingh.github.io/gsoc-blog/tag/gsoc-21.html">gsoc-21</a>, <a href="https://itssingh.github.io/gsoc-blog/tag/scancode.html">scancode</a>                      </p>
+                  </div>
+              </div>
+        </div>
+    </div>
+    <!-- /Header -->
+    <!-- /Header -->
+
+    </div>
+    <!-- /Header -->
+
+
+    <!-- Content -->
+    <div class="container content">
+        <h2>First Evaluation Report</h2>
+<h3>Updates</h3>
+<p><strong>List of task completed</strong></p>
+<ul>
+<li>Created a jinja template for ScanCode required output</li>
+<li>
+<p>Integrated ScanCode for license scanning</p>
+<ul>
+<li>Display name of license with percentage matched</li>
+<li>Insert new license to <code>license_ref</code> table</li>
+<li>Highlight matched text for license scanned</li>
+</ul>
+<p><img alt="image" src="images/license_scanning.png"></p>
+</li>
+<li>
+<p>Integrated ScanCode for Copyright and Author </p>
+<ul>
+<li>Created following tables in the database<ul>
+<li>scancode_copyright</li>
+<li>scancode_author</li>
+<li>scancode_copyright_event</li>
+<li>scancode_author_event</li>
+</ul>
+</li>
+<li>Able to insert scancode scanned output in these tables.</li>
+<li>Added a tab named ScanCode Findings in copyright browser and modified Copyright findings by Fossology to FOSSology Findings.</li>
+</ul>
+<p><img alt="image" src="images/scan_copy_browser.png"></p>
+</li>
+</ul>
+<p><strong>List of commits</strong></p>
+<ul>
+<li>
+<p><a href="https://github.com/itssingh/fossology/commit/e450950e6e39b1b3647c79c07737d3877e419cc6">feat(scancode): Initial commit </a></p>
+<ul>
+<li>This commit will add makefile, configure, and dependencies to run scancode toolkit.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/itssingh/fossology/commit/bd38dd70e092a8700547883e497f7861e3cc48b8">feat(scancode/agent): Add scancode agent</a></p>
+<ul>
+<li>Add scancode agent to scan a file</li>
+<li>Add name and percentage of licenses to fossology database.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/itssingh/fossology/commit/af0dce1adb49db0497a951c9616ae7cace9efca4">feat(scancode/ui): Add scancode agent UI</a> </p>
+<ul>
+<li>Add UI for license scanning by scancode-toolkit.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/itssingh/fossology/commit/0e461522b0d2d795d263cb7455c1d4b95c58ed8a">style(scancode): Update scancode agent</a></p>
+<ul>
+<li>Update scancode key with spdx-key, datatype of percentage license match from float(returned by scancode) to int(fossology need).</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/itssingh/fossology/commit/b9ad6d8ed488bf0a932734e7d331247b8e7b4ab1">feat(scancode/highlight): Add license highlight</a></p>
+<ul>
+<li>Highlight license relevant text for licenses scanned by scancode-toolkit</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/itssingh/fossology/commit/3a16fd2638967a7dc2d39e320cca2830268db9a7">feat(scancode): Add text_url and license full name </a></p>
+<ul>
+<li>This commit will add text_url and license full name for new licenses inserted into FOSSology database.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/itssingh/fossology/commit/ed83a98db32d2abcd0508af9e2650771a27ed615">feat(scancode): Add copyright &amp; author info in DB</a></p>
+<ul>
+<li>Removed UI glitch from license highlighting.</li>
+<li>This glitch was due to not inserting only unique entries in the license_file and highlight tables.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/itssingh/fossology/commit/c823ecf7a5d59fbfe243281c41598ea161e04435">feat(scancode):Create copyright and author table</a> </p>
+</li>
+<li>
+<p><a href="https://github.com/itssingh/fossology/commit/f7d0053fb78539875aac04b62345f9fd9863e9da">feat(scancode/copyrightUI):Add scancode tab</a></p>
+<ul>
+<li>Added a tab named ScanCode Findings in copyright browser and modified Copyright findings by Fossology to FOSSology Findings.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://github.com/itssingh/fossology/commit/a88cca652b25aa0705c58de2d451078ef14ce08a">feat(scancode):Add event table, comments, license</a></p>
+<ul>
+<li>Create tables for scancode_copyright_event and scancode_author_event</li>
+<li>Add copyright and license text in source code</li>
+<li>Add comments for source code</li>
+<li>Merge LicenseMatch and Match class</li>
+</ul>
+</li>
+</ul>
+<h3>How to test</h3>
+<ul>
+<li>Fetch <a href="https://github.com/itssingh/fossology/tree/feat/newagent%2Fscancode-toolkit">feat/newagent/scancode-toolkit</a> branch to your local.</li>
+<li><a href="https://github.com/fossology/fossology/wiki/Install-from-Source">Install Fossology from source</a> </li>
+</ul>
+<p><strong>Note</strong> Incase facing problem in scancode installation, Install scancode manually with pip.</p>
+<h3>Work in progress</h3>
+<ul>
+<li>Adding scancode copyright to UI</li>
+<li><a href="https://github.com/nexB/scancode-toolkit/pull/2539">Add emails and urls to HTML output</a></li>
+</ul>
+<h3>Postponed tasks</h3>
+<ul>
+<li>Writing Tests for license integration.</li>
+<li>Create a ScanCode plugin to extract license-text.<ul>
+<li>Will do after integrating scancode copyright/author.</li>
+</ul>
+</li>
+</ul>
+
+
+        
+    </div>
+    <!-- /Content -->
+
+ <!-- Footer -->
+ <div class="footer">
+    <div class="container footer-container ">
+        <div class="row">
+            <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                <div class="footer-title">Sitemap</div>
+                <ul class="list-unstyled">
+                    <li><a href="https://itssingh.github.io/gsoc-blog/archives.html">Archives</a></li>
+                    <li><a href="https://itssingh.github.io/gsoc-blog/tags.html">Tags</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                <div class="footer-title">Social</div>
+                <ul class="list-unstyled">
+                    <li><a href="https://github.com/itssingh/" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/s-sarita/" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
+                <div class="footer-title">Links</div>
+                <ul class="list-unstyled">
+                    <li><a href="https://github.com/fossology/fossology" target="_blank">FOSSology</a></li>
+                    <li><a href="https://github.com/nexB/scancode-toolkit" target="_blank">ScanCode</a></li>
+                </ul>
+            </div> 
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3"> <br>
+                <a href="https://github.com/itssingh" target="_blank">
+                    <img src="images/gsoc-fossology.gif" class="img-fluid" style="max-width: 120%;">
+                  </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Footer -->
+</body>
+
+</html>

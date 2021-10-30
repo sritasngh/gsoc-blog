@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Project Timeline">
+    <meta name="keywords" content="Timeline">
+    <link rel="icon" href="https://itssingh.github.io/gsoc-blog/favicon.ico">
+
+    <title>Timeline</title>
+
+    <!-- Stylesheets -->
+    <link href="https://itssingh.github.io/gsoc-blog/theme/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://itssingh.github.io/gsoc-blog/theme/css/fonts.css" rel="stylesheet">
+    <link href="https://itssingh.github.io/gsoc-blog/theme/css/nest.css" rel="stylesheet">
+    <link href="https://itssingh.github.io/gsoc-blog/theme/css/pygment.css" rel="stylesheet">
+    <link href="https://itssingh.github.io/gsoc-blog/theme/css/background.css" rel="stylesheet">
+    <link href="https://itssingh.github.io/gsoc-blog/theme/css/all.css" rel="stylesheet">
+    <link href="./timeline.css" rel="stylesheet">
+
+
+    <!-- /Stylesheets -->
+
+    <!-- RSS Feeds -->
+    <!-- /RSS Feeds -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+
+</head>
+
+<body style = font-family:monospace;>
+
+    <!-- Header -->
+    <div class="header-container" style="background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);">
+
+        <!-- Static navbar -->
+        <div class="container">
+            <div class="night">
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+                <div class="shooting_star"></div>
+            </div>
+            <div class="header-nav">
+                <div class="header">
+                    <a class="pull-left" style="color:rgb(255, 255, 255);"
+                        href="https://summerofcode.withgoogle.com/projects/#6550787498442752"> GOOGLE SUMMER OF CODE
+                        2021
+                    </a>
+                </div>
+                <div class="nav pull-right">
+                    <a href="https://itssingh.github.io/gsoc-blog/index.html">HOMEPAGE</a>
+                    <a href="https://itssingh.github.io/gsoc-blog/categories.html">CATEGORY</a>
+                </div>
+            </div>
+
+        </div>
+        <!-- /Static navbar -->
+
+        <!-- Header -->
+        <!-- Header -->
+        <div class="container header-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-content">
+                        <h1 class="header-title">Project Timeline</h1>
+                        <div class="header-underline"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Header -->
+        <!-- /Header -->
+
+    </div>
+    <!-- /Header -->
+
+
+
+    <!-- Content -->
+    <div class="container content">
+        <!-- partial:index.partial.html -->
+        <div class="timeline">
+            <div class="timeline__nav">
+                <ul>
+                    <li><span>Pre</span></li>
+                    <li><span>Week 1</span></li>
+                    <li><span>Week 2</span></li>
+                    <li><span>Week 3</span></li>
+                    <li><span>Week 4</span></li>
+                    <li><span>Week 5</span></li>
+                    <li><span>First</span></li>
+                    <li><span>Week 6</span></li>
+                    <li><span>Week 7</span></li>
+                    <li><span>Week 8</span></li>
+                    <li><span>Week 9</span></li>
+                    <li><span>Week 10</span></li>
+                    <li><span>Final</span></li>
+
+                </ul>
+            </div>
+            <section class=" timeline__section ">
+                <div class="wrapper ">
+                    <h3 class="milestone "> Community Bonding
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Collaborate with fellow participants and knowing the FOSSology Community
+                        <li>Search for a new wrapper
+                        <li>Learn php, Twig template
+                        <li>Learn REST API concepts
+                        <li>Create a jinja template for scancode required output
+                        <li>See Database, UI for parameterized agents like reuser and decider in fossology
+                        <li>Plan a skeleton for the project(directory structure, headers and source files, basic
+                            functionality, test files)
+                    </ul>
+                    </p>
+                    <h3 class="milestone "> Week 1 (June 7 - June 13)
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Implement the scancode wrapper
+                        <li>Add functions for executing commands for scancode
+                        <li>Add functions for parsing the scancode output
+                        <li>Add functions for populating database with detected licenses and scores i.e.
+                            <code style="color:rgb(14, 149, 233);font-size: 1em;">databasehandler</code>
+                    </ul>
+                    </p>
+                    <h3 class="milestone "> Week 2 (June 14 - June 20)
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Test the functions and fine tune the inputs and outputs
+                        <li>Modify the corresponding Makefiles and scheduler code to include scancode agent
+                        <li>Start writing agent test for the implemented parts
+                    </ul>
+                    </p>
+                    <h3 class="milestone "> Week 3 (June 21 - June 27)
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Add the corresponding UI for the implemented functions
+                        <li>If completed start testing the wrapper with the whole project with the help of implemented
+                            UI options
+                    </ul>
+                    </p>
+                    <h3 class="milestone "> Week 4 (June 28 - July 4)
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Test the UI for its working
+                        <li>Complete the agent tests
+                        <li>Complete the license scanner with text highlight feature
+                    </ul>
+                    </p>
+                    <h3 class="milestone "> Week 5 (July 5 - July 12)
+                    </h3>
+                    <p>
+                        <strong>July 5 - July 9</strong>
+                    <ul>
+                        <li>Testing and bug Fixing
+                        <li>By the end of this week the agent will be able to scan the uploaded files and show the
+                            result via FOSSology’s UI.
+                        <li>Result includes:
+                            <ul>
+                                <li>Licence Name as detected by Scancode
+                                <li>License match score
+                                <li>Matched text highlights
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <strong>July 10 - July 12</strong>
+                    <ul>
+                        <li>Documenting the code
+                        <li>Buffer Period
+                        <li>The first evaluation will include
+                            <ul>
+                                <li>A scancode wrapper for license name and score detection
+                                <li>A working UI for detecting license names in uploaded files
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </p>
+                    <h3 class="milestone "> First Evaluation (July 13 - July 15) 🚩
+                    </h3>
+                    <p>
+
+                    </p>
+                    <h3 class="milestone "> Week 6 (July 16 - July 22)
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Work on the project based on feedback provided after first evaluation
+                        <li>Start implementing functions for copyright, url and email detection
+                        </li>
+                    </ul>
+                    </p>
+                    <h3 class="milestone "> Week 7 (July 23 - July 29)
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Add database handling function for copyright, url and emails
+                        <li>I will add a new tables each for copyright, email, urls and corresponding functions to
+                            populate the table
+                        </li>
+                    </ul>
+                    </p>
+                    <h3 class="milestone "> Week 8 (July 30 - Aug 5)
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Adding copyright, url and email in the UI
+                        <li>Create Twig templates for the same
+                        </li>
+                    </ul>
+                    </p>
+                    <h3 class="milestone "> Week 9 (Aug 6 - Aug 12)
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Improve code quality
+                        <li>Adding documentation and creating reports
+                        <li>Buffer Period
+                        </li>
+                    </ul>
+                    </p>
+                    <h3 class="milestone ">Week 10 (Aug 13 - Aug 20)
+                    </h3>
+                    <p>
+                    <ul>
+                        <li>Testing and bug fixing
+                        <li>Final submission of work
+                        </li>
+                    </ul>
+                    </p>
+                    <h3 class="milestone "> Final Evaluation 🚩
+                    </h3>
+                    <p>
+                    </p>
+
+                </div>
+            </section>
+        </div>
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <script src="./timeline.js "></script>
+
+
+
+    </div>
+    <!-- /Content -->
+
+    <!-- Footer -->
+    <div class="footer ">
+        <div class="container footer-container ">
+            <div class="row ">
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 ">
+                    <div class="footer-title ">Sitemap</div>
+                    <ul class="list-unstyled ">
+                        <li><a href="https://itssingh.github.io/gsoc-blog/archives.html ">Archives</a></li>
+                        <li><a href="https://itssingh.github.io/gsoc-blog/tags.html ">Tags</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 ">
+                    <div class="footer-title ">Social</div>
+                    <ul class="list-unstyled ">
+                        <li><a href="https://github.com/itssingh/ " target="_blank ">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/s-sarita/ " target="_blank ">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 ">
+                    <div class="footer-title ">Links</div>
+                    <ul class="list-unstyled ">
+                        <li><a href="https://github.com/fossology/fossology " target="_blank ">FOSSology</a></li>
+                        <li><a href="https://github.com/nexB/scancode-toolkit " target="_blank ">ScanCode</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 ">
+                    <br>
+                    <a href="https://github.com/itssingh" target="_blank">
+                        <img src="images/gsoc-fossology.gif" class="img-fluid" style="max-width: 120%;">
+                      </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Footer -->
+</body>
+
+</html>
