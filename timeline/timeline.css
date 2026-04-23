@@ -34,19 +34,21 @@
     justify-content: left;
     position: fixed;
     left: 15px;
+    top: 190px;
     z-index: 99;
     transition: top 0.3s ease-out;
-    margin-top: 200px;
-    margin-bottom: 200px;
 }
 
 .timeline__nav ul {
     list-style: none;
     list-style-position: inside;
     margin: 15px 0;
+    padding: 0;
+    display: block;
 }
 
 .timeline__nav ul li {
+    display: block;
     margin: 15px 0;
     padding-left: 0;
     list-style-type: none;
