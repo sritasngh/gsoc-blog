@@ -5,7 +5,7 @@ AUTHOR = 'Sarita Singh'
 
 HIDE_AUTHORS = True
 # SITENAME = 'Integrating ScanCode Toolkit to FOSSology'
-SITEURL = 'https://itssingh.github.io/gsoc-blog'
+SITEURL = 'https://sritasngh.github.io/gsoc-blog'
 NEST_CSS_MINIFY = False
 SITETITLE = 'GSoC 2021'
 THEME = 'themes/nest'
