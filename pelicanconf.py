@@ -49,7 +49,16 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extra']
+
+ARTICLE_EXCLUDES = ['extra']
+PAGE_EXCLUDES = ['extra']
+
+EXTRA_PATH_METADATA = {
+    'extra/timeline.html': {'path': 'timeline.html'},
+    'extra/timeline.css': {'path': 'timeline.css'},
+    'extra/timeline.js': {'path': 'timeline.js'},
+}
 
 
 # archives.html
