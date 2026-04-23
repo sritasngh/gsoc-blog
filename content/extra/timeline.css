@@ -1,27 +1,55 @@
 @import url("https://fonts.googleapis.com/css?family=Exo+2:400,700&subset=cyrillic");
 
+/* html {
+    box-sizing: border-box;
+} */
+
+
+/* *,
+*::before,
+*::after {
+    box-sizing: inherit;
+} */
+
+
+/* body {
+  font-family: "Exo 2", sans-serif;
+  line-height: 1.5;
+} */
+
 .wrapper {
     margin: 0 auto;
+    padding-left: 20%;
     width: 100%;
 }
 
+
+/* article {
+    position: relative;
+    max-width: 980px;
+    margin: 0 auto;
+} */
+
 .timeline__nav {
-    position: sticky;
-    top: 20px;
+    justify-content: left;
+    position: fixed;
+    left: 15px;
+    top: 190px;
     z-index: 99;
-    padding-top: 10px;
+    transition: top 0.3s ease-out;
 }
 
 .timeline__nav ul {
     list-style: none;
-    margin: 0;
+    list-style-position: inside;
+    margin: 15px 0;
     padding: 0;
     display: block;
 }
 
 .timeline__nav ul li {
     display: block;
-    margin: 12px 0;
+    margin: 15px 0;
     padding-left: 0;
     list-style-type: none;
     color: #bfc1c3;
